@@ -1,0 +1,59 @@
+button {
+    background: #f00;
+    border: none;
+    border-radius: 9px;
+    padding: 9px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 9px darkRed;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    justify-self: center;
+  }
+  
+  button:active {
+    transform: translateY(4px);
+    box-shadow: 0 5px darkRed;
+  }
+  
+  button:active::before {
+    content: 'Nooo! You clicked me!';
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    background: limeGreen;
+    padding: 9px;
+    border-radius: 9px;
+    width: 200px;
+    right: -40px;
+  }
+  
+  .wrapper {
+    width: 168px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .wrapper:hover {
+    width: 1000px;
+  }
+  
+  * {
+    transition: all 0.3s ease;
+  }
+  
+  body {
+    background: #101010;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
