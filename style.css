@@ -1,4 +1,4 @@
-button {
+button{
     background: #f00;
     border: none;
     border-radius: 9px;
@@ -11,14 +11,14 @@ button {
     color: #fff;
     cursor: pointer;
   }
-  button:hover {
+  button:hover{
     justify-self: center;
   }
-  button:active {
+  button:active{
     transform: translateY(4px);
     box-shadow: 0 5px darkRed;
   }
-  button:active::before {
+  button:active::before{
     content: 'Nooo! You clicked me!';
     color: #fff;
     position: absolute;
@@ -29,20 +29,20 @@ button {
     width: 200px;
     right: -40px;
   }
-  .wrapper {
+  .wrapper{
     width: 168px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: right;
   }
-  .wrapper:hover {
+  .wrapper:hover{
     width: 1000px;
   }
-  * {
+  *{
     transition: all 0.3s ease;
   }
-  body {
+  body{
     background: #101010;
     display: flex; 
     align-items: center;
