@@ -11,16 +11,13 @@ button {
     color: #fff;
     cursor: pointer;
   }
-  
   button:hover {
     justify-self: center;
   }
-  
   button:active {
     transform: translateY(4px);
     box-shadow: 0 5px darkRed;
   }
-  
   button:active::before {
     content: 'Nooo! You clicked me!';
     color: #fff;
@@ -32,7 +29,6 @@ button {
     width: 200px;
     right: -40px;
   }
-  
   .wrapper {
     width: 168px;
     height: 100px;
@@ -40,15 +36,12 @@ button {
     align-items: center;
     justify-content: right;
   }
-  
   .wrapper:hover {
     width: 1000px;
   }
-  
   * {
     transition: all 0.3s ease;
   }
-  
   body {
     background: #101010;
     display: flex; 
