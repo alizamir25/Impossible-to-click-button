@@ -1,12 +1,12 @@
 button{
-    background: #f00;
+    background: rgb(248, 18, 18);
     border: none;
     border-radius: 9px;
     padding: 9px;
     text-align: center;
     width: 150px;
     height: 50px;
-    box-shadow: 0 9px darkRed;
+    box-shadow: 0 9px rgb(201, 1, 1);
     font-size: 1.5em;
     color: #fff;
     cursor: pointer;
@@ -16,14 +16,14 @@ button{
   }
   button:active{
     transform: translateY(4px);
-    box-shadow: 0 5px darkRed;
+    box-shadow: 0 5px rgb(177, 0, 0);
   }
   button:active::before{
     content: 'Nooo! You clicked me!';
     color: #fff;
     position: absolute;
     top: 60px;
-    background: limeGreen;
+    background: rgb(88, 238, 88);
     padding: 9px;
     border-radius: 9px;
     width: 200px;
@@ -43,7 +43,7 @@ button{
     transition: all 0.3s ease;
   }
   body{
-    background: #101010;
+    background: #000000;
     display: flex; 
     align-items: center;
     justify-content: center;
